@@ -1,7 +1,4 @@
 var schedule = require("node-schedule");
-var request = require('request');
-var url_conf = require('../conf/url.json');
-var DomainModel = require('../model/Domain');
 var exec = require('child_process').exec;
 
 function restart() {
