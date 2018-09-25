@@ -22,7 +22,7 @@ function restart() {
     })
 }
 var rule = new schedule.RecurrenceRule();
-var times1 = [1,3,5];
+var times1 = [2,4,6];
 var times2 = [1];
 rule.dayOfWeek = times1;
 rule.hour = times2;
