@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('../app');1
+var app = require('../app');
 // var MessageServer = require('../message_server.js');
 var debug = require('debug')('tuitui-weichat:server');
 var http = require('http');
