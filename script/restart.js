@@ -1,5 +1,5 @@
 var schedule = require("node-schedule");
-var exec = require('child_process').exec;1
+var exec = require('child_process').exec;
 
 function restart() {
     var cmdStr1 = 'pm2 restart tuitui'
